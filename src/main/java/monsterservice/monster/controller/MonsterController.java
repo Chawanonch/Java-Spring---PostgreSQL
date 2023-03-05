@@ -20,7 +20,7 @@ public class MonsterController {
 
     @GetMapping("/greeting")
     public String getGreeting() {
-        return "getGreeting";
+        return "Hi!";
     }
 
     @PostMapping("/create")
